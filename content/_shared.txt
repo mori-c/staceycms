@@ -1,6 +1,6 @@
-name: Ñame
+name: Connie Leung
 -
-profession: Gräphic Designer
+profession: Front End/UX Dev & IoT Product Designer
 -
 email: 
 <hi@yourdomain.com>

@@ -1,3 +1,2 @@
-page_description: A collection of Ñame's graphic design work
--
+page_description: A collection of Connie Leung’s Projects
 title: Projects
