@@ -15,9 +15,44 @@
       </h1>
       <em class="col three">@email</em>
       <hr>
-      :navigation
+				<!-- Navigation -->
+        <ul id="navigation" class="col two">
+            <li>
+              <a href="@url">@title</a>
+            	<ol class="children">
+								<li>
+									<a href="@url">@page_name</a>
+								</li>
+							</ol>
+            </li>
+        </ul>
+			
+			<!-- Category List -->
       <div id="content" class="col eight">
-        :category-lists
+        <ul class="projects">
+					<li class="col seven">
+						<p class="date col one">@date</p>
+						<h2 class="col five">
+							<img src="@thumb" class="project-thumb" alt="">
+							<a href="@url">@title</a>
+						</h2>
+					</li>
+				</ul>
+			</div>
+			
+			<!-- projects-list -->
+			<div id="content" class="col eight">
+				<ul class="projects">
+					<li class="col seven">
+						<p class="date col one">@date</p>
+						<h2 class="col five">
+							<img src="@thumb" class="project-thumb" alt="">
+							<a href="@url">@title</a>
+						</h2>
+					</li>
+				</ul>
+      </div>
+				
       </div>
       <hr>
       <p id="footer" class="col six">&copy; Connie Leung 2016 <a class="atom-rss" href="@root_path/?/feed/">RSS</a><br>
