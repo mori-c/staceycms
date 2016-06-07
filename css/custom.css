@@ -1,0 +1,8 @@
+/* About */
+h1 strong.title { font-weight: normal; text-transform: none; display: block; font-size: .65em; letter-spacing: 0.2em; line-height: 1.75; text-transform: uppercase; word-break:keep-all ; padding-top: 0.75em; }
+
+
+/* Projects */
+em.symbol.number {
+	font-family: "Times New Roman", times, serif;
+}

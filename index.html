@@ -3,17 +3,20 @@
 <html>
   <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <title>Connie</title>
+    <title>C</title>
     <link rel="alternate" type="application/atom+xml" href="@root_path/?/feed/">
     <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="css/custom.css" type="text/css" media="screen">
   </head>
   <body>
     <div id="container">
-      <h1 class="col three">
-        <a href="about.html">Connie Leung</a>
-        <strong>Front-End UX Dev &amp; IoT Product Designer</strong>
+      <h1 class="col three about">
+        <a href="about.html" class="name">C</a>
+        <strong class="title 1">Front-End UX Dev &amp; </strong>
+				<strong class="title 2">IoT Product Designer</strong>
       </h1>
-      <em class="col three">hi@domain.com</em>
+      <em class="col three">info@domain.com</em>
+			
       <hr>
 				<!-- Navigation -->
         <ul id="navigation" class="col two">
@@ -30,36 +33,52 @@
             </li>
         </ul>
 			
-			<!-- Category List -->
-      <div id="content" class="col eight">
-        <ul class="projects">
-					<li class="col seven">
-						<p class="date col one">@date</p>
-						<h2 class="col five">
-							<img src="@thumb" class="project-thumb" alt="">
-							<a href="@url">@title</a>
-						</h2>
-					</li>
-				</ul>
-			</div>
-			
 			<!-- projects-list -->
 			<div id="content" class="col eight">
 				<ul class="projects">
 					<li class="col seven">
-						<p class="date col one">@date</p>
-						<h2 class="col five">
-							<img src="partials/assets/images.html" class="project-thumb" alt="">
-							<a href="@url">@title</a>
-						</h2>
+						<a href="prj/11.wearhacks.html">WH</a>
 					</li>
+					
+						<li class="col seven">
+						<a href="./projects/movie-project-2/">Movie Project 2</a>
+						</li>
+					
+						<li class="col seven">
+						<a href="./projects/project-name-3/">Project Name 3</a>
+					</li>
+					
+						<li class="col seven">
+						<a href="./projects/youtube-project-4/">Youtube Project 4</a>
+					</li>
+					
+						<li class="col seven">
+						<a href="./projects/vimeo-project-5/">Vimeo Project 5</a>
+					</li>
+					
+						<li class="col seven">
+						<a href="./projects/swf-project-6/">Swf Project 6</a>
+					</li>
+					
+						<li class="col seven">
+						<a href="./projects/mixed-media-project-7/">Mixed Media Project 7</a>
+					</li>
+					
 				</ul>
-      </div>
+			</div>
 				
       </div>
       <hr>
       <p id="footer" class="col six">&copy; 2016 Connie Leung<a class="atom-rss" href="@root_path/?/feed/">RSS</a><br>
         <em>Content managed by <a href="http://www.staceyapp.com">stacey</a></em></p>
     </div>
+	
+		<script type="text/javascript" charset="utf-8">
+			document.getElementsByTagName('body')[0].className += ' js-enabled';
+		</script>
+	
+		<script src="js/jquery-1.3.2.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/gallery.js" type="text/javascript" charset="utf-8"></script>
+		<script src=".js/init-gallery.js" type="text/javascript" charset="utf-8"></script>
   </body>
 </html>
