@@ -1,6 +1,6 @@
 # staceycms
 Lightweight, flat-file, sans database CMS. Not PHP.
 
-## Take-aways
+## Take-away
 
-CMS and style portfolio prototype tester. Converted StaceyCMS PHP code into HTML, CSS, JS code
+Converted StaceyCMS PHP code into HTML, CSS, JS code. CMS and style prototype tester for portfolio function. 
